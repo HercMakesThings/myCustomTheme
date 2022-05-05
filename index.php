@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alumni Designs</title>
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="myassets/bootstrap/css/bootstrap.css">
-    <script src="myassets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
-    <!--AOSJS-->
-    <link rel="stylesheet" href="myassets/aos-master/dist/aos.css">
-    <script type="text/javascript" src="myassets/aos-master/dist/aos.js"></script>
-    <!--Font Awesome CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!--Jquery-->
-    <script type="text/javascript" src="myassets/js/jquery-3.6.0.js"></script>
-    <!--Roboto Font (Google)-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!--Personal Stylesheet-->
-    <link rel="stylesheet" href="myassets/css/alum.css">
-  </head>
-  <body>
+<?php get_header(); ?>
     <!-- test -->
     <!--homepagesection start-->
     <section id="homepage">
@@ -87,41 +64,4 @@
 
 
 
-    <footer class="container-fluid">
-      <div class="container">
-        <div class="row justify-content-center">
-            <div data-aos="flip-down" class="col-sm-5 mt-3">
-              <div class="card">
-                <div class="card-header">See My Work!</div>
-                <div class="card-body">
-                  <nav>
-                    <ul>
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="page.html">Portfolio</a></li>
-                      <li><a href="page.html">Contact</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-5 mt-3">
-              <div data-aos="flip-up" class="card">
-                <div class="card-header">Social Media</div>
-                <div class="card-body">
-                  <ul>
-                    <li><a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a></li>
-                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i> Facebook</a></li>
-                    <li><a href="https://github.com"><i class="fab fa-github"></i> Github</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div>
-    </footer>
-
-  </section><!--homepagesection END-->
-
-    <script type="text/javascript" src="myassets/js/alum.js"></script>
-  </body>
-</html>
+<?php get_footer(); ?>
